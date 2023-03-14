@@ -19,7 +19,7 @@ const { createWorker } = require("tesseract.js");
     "\n_________________________________\n"
   );
 
-  const { data: { text } } = await worker.recognize("Focusing.PNG");
+  const { data: { text } } = await worker.recognize("SKILLS.PNG");
 
   console.log(text, "\n_________________________________\n");
 
